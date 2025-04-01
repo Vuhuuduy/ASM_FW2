@@ -1,0 +1,48 @@
+{
+  "products": [
+    {
+      "name": "Duy",
+      "price": 123,
+      "available": 1,
+      "description": "abca",
+      "category": "cate2",
+      "imageUrl": "https://res.cloudinary.com/dxhgeg7vi/image/upload/v1743448933/n5ld1x9ur8pv7lg1xh0n.jpg",
+      "id": 1
+    },
+    {
+      "name": "Long",
+      "price": 123,
+      "imageUrl": "https://res.cloudinary.com/dxhgeg7vi/image/upload/v1743448907/zg7rovzkmfy76giiupaw.png",
+      "available": true,
+      "description": "abc",
+      "category": "cate2",
+      "id": 3
+    }
+  ],
+  "users": [
+    {
+      "email": "duyvhph52605@gmail.com",
+      "password": "$2a$10$fUxzvchkb/.jc68HKFWt8evsTquc1Z6P6Ln1tg1fg29LtKrbBVW1G",
+      "id": 1
+    },
+    {
+      "email": "duy@gmail.com",
+      "password": "$2a$10$.FfWkkv/5/Iy2lNXO4A5pu2GdM6t7lMz.LMLXpktJeT97/9nXcZ8K",
+      "id": 2
+    }
+  ],
+  "carts": [
+    {
+      "userId": 2,
+      "productId": 3,
+      "quantity": 4,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "productId": 1,
+      "quantity": 1,
+      "id": 2
+    }
+  ]
+}
